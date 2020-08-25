@@ -1,0 +1,760 @@
+*{margin:0;
+}
+/*menu ou en trouve le drapeau*/
+.entete {
+    position: relative;
+    height: 50px;
+    background-color: rgb(52, 117, 147, 1);
+}
+/*partie du drapeau*/
+.entetedrapo{
+    position: absolute;
+    left:200px;
+    height:50px;
+    width:400px;
+}
+
+.entete .drapo {
+    position: absolute;
+    top: 10px;
+    box-shadow: 3px 3px rgb(59, 60, 61);
+}
+
+.entete #drapo {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+    left: 50px;
+    top: 10px;
+}
+/*lien utiles/actualité/Agenda/Contact */
+.header {
+    position: absolute;
+    margin-left: 900px;
+    top: 10px;
+    display: inline-block;
+}
+
+.header a {
+    color: white;
+}
+
+.entete .header1 {
+    display: inline-block;
+}
+
+.entete #lien {
+    display: inline-block;
+    font-size: 10px;
+    padding-right: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*le body du reste de la page*/
+.all {
+    position: relative;
+   
+    height: 772px;
+    background-image: url('../img/back.jpg');
+    background-size: 1350px 600px;
+}
+/*espace du resau et logo ISAAS*/
+.reseau {
+    height: 120px;
+    
+    position: relative;
+}
+.resleft{
+    position: relative;
+   
+    height:140px;
+    width:300px;
+    padding-left: 1000px;
+}
+#logo {
+    position: absolute;
+    left: 180px;
+    top: 20px;
+}
+
+.soc {
+    position: absolute;
+    top: 15px;
+}
+/*image resaux*/
+.soc .reseaus {
+    padding-left: 5px;
+}
+/*recherche*/
+.nice {
+position: absolute;
+    top: 70px;
+}
+/* bande menu liste*/
+.menu {
+    height: 40px;
+    position: relative;
+    background-color: #f0dbbe;
+    box-shadow: 5px 5px 10px grey;
+    box-sizing: border-box;
+}
+.mm1{
+    position: absolute;
+    left: 325px;
+    width: 700px;
+    height:40px;
+}
+.menu1 {
+    float: left;
+    height: 40px;
+    cursor: pointer;
+    border-right: 2px solid white;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu h4 {
+    text-align: center;
+    margin-top: 13px;
+    font-size: 15px;
+    color: rgb(61, 59, 59);
+    height: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bdmenu{
+    position: absolute;
+    height: 5px;
+    
+    bottom: 0px;
+}
+
+#nouveaute {
+    width: 105px;
+    border-left: 2px solid white;
+}
+.bandnouveu
+{
+    width:101px;
+    background-color: rgb(133, 188, 240);
+}
+
+#nouveaute:hover  .h4{
+    color:green;
+}
+
+#institut {
+    width: 80px;
+}
+
+.bandinstitut
+{
+    width:78px;
+    background-color: rgb(255, 196, 0);  
+}
+
+#institut:hover .h4{
+    color:green;
+}
+
+#departement {
+    width: 125px;
+}
+
+.banddept{
+    width:123px;
+    background-color: red;  
+}
+
+#departement:hover .h4{
+    color:green;
+}
+
+#formation { 
+    width: 100px;
+}
+
+.bandformation
+{
+    width:98px;
+    background-color: rgb(8, 8, 153);  
+}
+
+
+#formation:hover .h4{
+    color:green;
+}
+
+#stage {  
+    width: 290px;
+}
+
+.bandstage{
+    width:288px;
+    background-color: green; 
+}
+
+#formation:hover .h4{
+    color:green
+}
+
+#stage:hover .h4{
+    color:green;
+}
+
+.dropdown_nv {
+    z-index: 3;
+    position: absolute;
+    top:40px;
+    cursor: pointer;
+}
+
+.bdinstitut{
+    background-color:  rgb(255, 196, 0);
+}
+
+.bddept{
+    background-color: red;
+}
+
+.bdform{
+    background-color: rgb(8, 8, 153);
+}
+
+.me {   
+    padding: 3px;
+    height: 30px;
+    display: none;
+}
+
+#institut:hover .me{
+    display: block;
+}
+
+.me h4, .me1 h4, .me2 h4{
+    padding-right: 30px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 13px;
+    color:white;
+   margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.me:hover {
+    background-color: white;
+}
+
+.me:hover h4,.me1:hover {
+    color:rgb(255, 196, 0);
+}
+
+.me1:hover h4,.me1:hover li{
+    color:red;
+}
+
+.me2:hover h4{
+    color:rgb(8, 8, 153);
+}
+
+.me1 {
+    padding: 3px;
+    height: 30px;
+    display: none;
+}
+
+#departement:hover .me1{
+    display: block;
+}
+
+.me1:hover {
+    background-color: white;
+}
+
+.me2 {
+    
+    padding: 3px;
+    height: 30px;
+    display: none;
+}
+
+#formation:hover .me2{
+    display: block;
+}
+
+.me2:hover {
+    background-color: white;
+}
+
+/* slide show */
+.shadow{
+    
+    
+    position: relative;
+    box-shadow: 0 0 10px  black;
+    top:50px;
+    margin:0 auto;
+    width:800px;
+    height: 500px;
+    overflow: hidden;
+    border:8px solid white;
+}
+
+.im {
+    position: absolute;
+    width:800px;
+    height: 500px;  
+    left:0px;
+    cursor: pointer;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 32s;
+    animation-play-state: running;
+}
+
+#text_box{
+      position: absolute;
+      height: 80px;
+      width:300px;
+      background-color: transparent;
+      opacity: 70%;
+      bottom:0px;
+}
+
+
+
+.titre{
+    position: absolute;
+color:white;
+text-align: center;
+font-size: 35px;
+height: 32.5px;
+opacity: 0%;
+left:20px;
+padding-top: 20px;
+height:50px;
+width:300px;
+background-color: black;
+background-size: 400px 100px;
+backface-visibility: visible;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 32s;
+}
+.titre1{
+    
+
+animation-name: titre1;
+}
+@keyframes titre1{
+    0%{left:-400px;
+        opacity: 1;}
+     12.5%,25%{left:0px;
+    opacity:1;}
+       37.5%,100%{left:-400px;
+    opacity: 0%;}
+}
+
+.titre2{
+   
+animation-name: titre2;
+}
+@keyframes titre2{
+    0%,25%{left:800px;
+        opacity: 1;}
+     37.5%,50%{left:0px;
+    opacity:1;}
+        62.5%,100%{left:0px;
+    opacity: 0%;}
+}
+.titre3{
+   
+animation-name: titre3;
+}
+@keyframes titre3{
+    0%,50%{left:0px;
+    opacity:0;}
+    62.5%,75%{opacity: 100%;
+    left:0px;}  
+    87.5%,100%{left:0px;
+        opacity: 100%;}
+}
+.titre4{
+    
+animation-name: titre4;
+}
+@keyframes titre4{
+    12.5%,75%{opacity: 0%;
+        left:0px;}  
+        87.5%,100%{left:0px;
+        opacity: 100%;}
+}
+
+
+
+
+#im1{
+    animation-name: image1;
+}
+
+@keyframes image1{
+  0%{left:-800px;}
+ 12.5%,96%{left:0px;}
+}
+
+
+#im2{
+    animation-name: image2;
+ 
+}
+
+@keyframes image2{
+    0%,25%{left:800px;
+    opacity: 1;}
+ 37.5%,50%{left:0px;
+opacity:1;}
+    62.5%,100%{left:0px;
+opacity: 0%;}
+}
+
+#im3{
+    animation-name: image3;
+   
+}
+
+@keyframes image3{
+    0%,50%{top:-500px;
+opacity:0;}
+62.5%,100%{top:0px;
+    opacity: 100%;}
+}
+
+#im4{
+    animation-name: image4;
+   
+}
+
+@keyframes image4{
+    12.5%,75%{opacity: 0%;
+    left:0px;}  
+    87.5%,100%{left:0px;
+    opacity: 100%;}
+}
+
+.band{
+    position: absolute;
+    width:800px;
+    height: 3px;
+    background-color: silver;
+    bottom: 0px;
+}
+.progression{
+    position: absolute;
+    background-color: red;
+    width: 0px;
+    height: 3px;
+    animation-name: bande_progression;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+
+@keyframes bande_progression{
+    from{width:0px;}
+    to{width:800px;}
+}
+#slide:target #im1,
+#slide:target #im2,
+#slide:target #im3,
+#slide:target #im4,
+#slide:target #text_box #t1,
+#slide:target #text_box #t2,
+#slide:target #text_box #t3,
+#slide:target #text_box #t4,
+#slide:target .band #ss
+{
+    animation-play-state: paused;
+}
+#slide:target #pp{
+    display: none;
+}
+#slide:target #pl{
+    display: block;
+    animation-name: switchp;
+    animation-duration: 4s;
+    transition-timing-function: linear;
+}
+
+#pp{
+     position: absolute;
+    width:800px;
+    opacity: 0;
+    height: 500px;
+    background-image: url(../img/pause.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: switchp;
+    animation-duration: 4s;
+    transition-timing-function: linear;
+   
+}
+
+#pp #pause{
+text-decoration: none;
+font-size: 500px;
+color: transparent;
+}
+
+#pl{
+    position: absolute;
+    width:800px;
+    opacity: 0;
+    height: 500px;
+    background-image: url(../img/play.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+}
+
+#pl #play{
+text-decoration: none;
+font-size: 500px;
+color:transparent;
+}
+
+#slides:target #im1,
+#slides:target #im2,
+#slides:target #im3,
+#slides:target #im4,
+#slides:target #text_box #t1,
+#slides:target #text_box #t2,
+#slides:target #text_box #t3,
+#slides:target #text_box #t4,
+#slides:target .band #ss
+{
+    animation-play-state: running;
+}
+
+#slide #slides:target #pp{
+    display: block;
+}
+
+#slide #slides:target #pl{
+    display: none;
+}
+
+@keyframes switchp{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
+
+.left{
+    position: absolute;
+    width:150px;
+    height:800px;
+    left:50px;
+    top:260px;
+    border: 8px solid white;
+    box-shadow: 0 0 10px  black;
+    overflow: hidden;
+}
+
+.left_im1{
+    width:150px;
+    height:800px;
+    background-image: url(../img/letim.jpg);
+    filter: blur(3px);
+}
+
+.left_im{
+    filter: blur(px);
+    width: 150px;
+    height:160px;
+    z-index: 1;
+    position: absolute;
+}
+
+.left_im h1{
+    color:rgb(71, 128, 165);
+    font-size: 80px;
+    left:40px;
+    top:60px;
+    text-shadow:5px 5px 5px black;
+}
+
+.l1{
+    background-image: url(../img/letim.jpg);
+    background-position: 0px 0px;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: deplacer_l;
+}
+
+.l2{
+    
+    background-image: url(../img/letim.jpg);
+    background-position: 0px 600px;
+    top:160px;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: deplacer_r;
+}
+
+.l3{
+    background-image: url(../img/letim.jpg);
+    background-position: 0px 480px;
+    top:320px;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: deplacer_l;
+}
+
+.l4{
+    background-image: url(../img/letim.jpg);
+    background-position: 0px 320px;
+    top:480px;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: deplacer_r;
+}
+
+.l5{
+    background-image: url(../img/letim.jpg);
+    background-position: 0px 160px;
+    top:640px;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: deplacer_l;
+}
+
+@keyframes deplacer_l
+{
+    0%{left:-150px}
+    30%,50%{left:0px}
+    80%,100%{left:-150px}
+}
+
+@keyframes deplacer_r
+{
+    0%{left:+150px}
+    30%,50%{left:0px}
+    80%,100%{left:+150px}
+}
+
+.right{
+    position: absolute;
+    right: 50px;
+    width:150px;
+    height:800px;
+    box-shadow: 0 0 10px  black;
+    top:260px;
+    border: 8px solid white;
+    overflow: hidden;
+}
+
+.right_im1{
+    width:150px;
+    height:800px;
+    background-image: url(../img/leftim1.jpg);
+    filter: blur(3px);
+}
+
+.right_im{
+    filter: blur(px);
+    width: 150px;
+    height:200px;
+    z-index: 1;
+    position: absolute;
+}
+
+.r1{
+    background-image: url(../img/leftim1.jpg);
+    background-position: 0px 0px;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: deplacer_l;
+}
+
+.r2{
+    background-image: url(../img/leftim1.jpg);
+    background-position: 0px 600px;
+    top:200px;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: deplacer_r;
+}
+
+.r3{
+    background-image: url(../img/leftim1.jpg);
+    background-position: 0px 400px;
+    top:400px;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: deplacer_l;
+}
+
+.r4{
+    background-image: url(../img/leftim1.jpg);
+    background-position: 0px 200px;
+    top:600px;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: deplacer_r;
+}
+
+@keyframes deplacer_l
+{
+    0%{left:-150px}
+    30%,50%{left:0px}
+    80%,100%{left:-150px}
+}
+
+@keyframes deplacer_r
+{
+    0%{left:+150px}
+    30%,50%{left:0px}
+    80%,100%{left:150px}
+}
+
+.bottom{
+    position: relative;
+    width:800px;
+    height:250px;
+    top:-12px;
+    margin:0 auto;
+    border: 8px solid white;
+    box-shadow: 0 0 10px  black;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.bottom_im{
+    position: absolute;
+    width:800px;
+    height: 250px;
+    top:0;   
+    animation-name: flou;
+    animation-duration: 2s;
+    animation-timing-function: infinite;
+    background-image: url(../img/bottom.jpg);
+}
+
+@keyframes flou {
+	0%,25%	{ filter: blur(3px);}
+	30%,100%{ filter: blur(0px);}
+}
